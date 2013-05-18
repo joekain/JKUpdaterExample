@@ -19,6 +19,7 @@
 		9C99AFD01741FDC900868D64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99AFCF1741FDC900868D64 /* ViewController.m */; };
 		9C99AFD31741FDCA00868D64 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C99AFD11741FDCA00868D64 /* ViewController.xib */; };
 		9C99AFDB1741FFEF00868D64 /* Updater.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C99AFDA1741FFEF00868D64 /* Updater.m */; };
+		9CF55B511747D3F2003EAE99 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF55B501747D3F2003EAE99 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		9C99AFD21741FDCA00868D64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		9C99AFD91741FFEF00868D64 /* Updater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Updater.h; sourceTree = "<group>"; };
 		9C99AFDA1741FFEF00868D64 /* Updater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Updater.m; sourceTree = "<group>"; };
+		9CF55B4F1747D3F2003EAE99 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		9CF55B501747D3F2003EAE99 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				9C99AFBD1741FDC900868D64 /* Supporting Files */,
 				9C99AFD91741FFEF00868D64 /* Updater.h */,
 				9C99AFDA1741FFEF00868D64 /* Updater.m */,
+				9CF55B4F1747D3F2003EAE99 /* Model.h */,
+				9CF55B501747D3F2003EAE99 /* Model.m */,
 			);
 			path = JKUpdaterExample;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 				9C99AFC71741FDC900868D64 /* AppDelegate.m in Sources */,
 				9C99AFD01741FDC900868D64 /* ViewController.m in Sources */,
 				9C99AFDB1741FFEF00868D64 /* Updater.m in Sources */,
+				9CF55B511747D3F2003EAE99 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
