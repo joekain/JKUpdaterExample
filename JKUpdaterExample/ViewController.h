@@ -3,11 +3,14 @@
 //  JKUpdaterExample
 //
 //  Created by Joseph Kain on 5/13/13.
-//  Copyright (c) 2013 Joseph Kain. All rights reserved.
+//  http://www.antipodalapps.com/2013/05/17/solid-mvc-design-ios/
+//  http://github.com/joekain/JKUpdaterExample
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class Updater;
 
+@interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet Updater *updater;
 @end

@@ -3,27 +3,20 @@
 //  JKUpdaterExample
 //
 //  Created by Joseph Kain on 5/13/13.
-//  Copyright (c) 2013 Joseph Kain. All rights reserved.
+//  http://www.antipodalapps.com/2013/05/17/solid-mvc-design-ios/
+//  http://github.com/joekain/JKUpdaterExample
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
-@end
+#import "Updater.h"
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (void)viewWillAppear:(BOOL)animated
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [super viewWillAppear:animated];
+    
+    [self.updater update];
 }
 
 @end
