@@ -9,8 +9,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class Model;
 @class Updater;
 
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet Updater *updater;
+
+
+// This Model stores data for ViewController and implements its business logic.
+@property (strong, nonatomic) Model *model;
 @end
